@@ -1,3 +1,7 @@
+/*CSS - Página Teste Tardus
+Autor: Juan Caio
+Atualização: 31/10/2018*/
+
 /*Geral*/
 body{
     font-family: 'Roboto', sans-serif;
@@ -17,7 +21,13 @@ select{
     border-radius: 0;
     width: 270px;
     max-width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url('../imagens/left-arrow-chevron.svg') 95.5% 50% no-repeat;
 }
+
+
 .text-cinza{
     color: #9DAFBD !important;
 }
@@ -26,10 +36,12 @@ select{
     color: #026FC2 !important;
 }
 
-/*Menu Frontal*/
+/*Primeiro Menu*/
 .icon-user{
-    margin-left: 320px;
+    margin-left: 295px;
     font-size: 3rem !important;
+    margin-top: -10px;
+    position: relative; 
 }
 
 .name-user{
@@ -56,6 +68,34 @@ select{
 .select-user{
     margin-left: 10px;
     margin-top: 15px;
+}
+
+.button-blue{
+    background: #026FC2;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    height: 31px;
+    line-height: 31px;
+}
+
+a.button-blue:hover{
+    background: #165280
+}
+
+a.button-blue img{
+    vertical-align: middle;
+}
+
+li a.text-cinza{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+li a.text-cinza img{
+    vertical-align: middle;
 }
 
 /*Menu Lateral*/
@@ -99,4 +139,14 @@ select{
 
 .barra{
     border-bottom: #ececec solid 1px;
+}
+
+/*Tela Boas Vindas*/
+
+.boas-vindas{
+    position:absolute;
+	left:50%;
+	top:50%;
+    font-size: 52px;
+    font-weight: 700;
 }
