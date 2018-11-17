@@ -1,0 +1,112 @@
+/*CSS - Chat Teste Tardus
+Autor: Juan Caio
+Atualização: 16/11/2018
+*/
+
+/*Geral*/
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: auto;
+    background-color: #CFCFCF;
+}
+
+nav{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/*Chat*/
+
+/***********************Header**********************/
+.chat{
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FFFFFF;
+    box-shadow: #f2f2f2 0px 2px 4px;
+    min-width: 560px;
+    min-height: 515px;
+    max-width: 100px;
+    max-height: 100px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.name{
+    position: relative;
+    color: #026FC2;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.name-logo{
+    color: #fff;
+    display: inline-block;
+    padding: 0;
+    padding-left: 10px;
+    cursor: default;
+}
+
+.horario{
+    position: relative;
+    margin: 0;
+    color: #9DAFBD;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -45px;
+}
+
+.icon-horario{
+    line-height: 1px !important;
+    display: inline-block !important;
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+.circulo{
+    background-color: #026FC2;
+    width: 30px;
+    height: 30px;
+    box-shadow: none;
+}
+
+a.btn-floating.circulo:hover, a.btn.mybtn:hover{
+    background-color: #9DAFBD;
+}
+
+.tam-img{
+    width: 16px;
+}
+
+.mybtn{
+    background-color: #026FC2;
+    box-shadow: none;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: initial;
+}
+
+nav ul a.btn,  nav ul a.btn-floating{
+    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+a.search{
+    margin-right: 10px !important;
+}
+
+div.header{
+    border-bottom: #EBEBEB 1px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/***********************Main**********************/
+
