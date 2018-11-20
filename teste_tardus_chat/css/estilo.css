@@ -109,4 +109,96 @@ div.header{
 }
 
 /***********************Main**********************/
+.horario-main{
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.box-chat-blue{
+    background-color: #0083FF;
+    border: none;
+    border-radius: 20px 20px 0px 20px;
+    margin-right: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-chat-gray{
+    background-color: #EDF0F2;
+    border: none;
+    border-radius: 20px 20px 20px 0px; 
+    margin-left: 15px;
+    padding: 10px;
+    color: #748998;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/***********************Input**********************/
+
+div.input{
+    border-top: #EBEBEB 1px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+textarea{
+    height: 2.5rem !important;
+}
+
+textarea.materialize-textarea.input-chat{
+    border: 1px solid #9DAFBD;
+    border-radius: 50px 50px 50px 50px;
+    width: 340px;
+    min-width: 100%;
+    max-width: 390px !important;
+    min-height: 36px !important;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 50px;
+}
+
+textarea.materialize-textarea.input-chat:focus{
+    border: 1px solid #0083FF;
+    box-shadow: none;
+}
+
+textarea::placeholder{
+    color: #9DAFBD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icon-send{
+    margin-left: 120px;
+    top: 4px !important;
+    color: #9DAFBD;
+}
+
+.icon-send:hover{
+    color: #0083FF; 
+}
+
+.icones-btns{
+    color: #9DAFBD;
+    margin-top: 18px;
+}
+
+div.icones-btns i.material-icons{
+    margin-right: 2px;
+    color: #9DAFBD;
+}
+
+div.icones-btns i.material-icons:hover{
+    color: #0083FF;   
+}
 
